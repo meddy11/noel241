@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 body{
     overflow-x: hidden;
 }
@@ -7,8 +7,8 @@ body{
     height: 100%;
 }
 
-h1{
-    font-family: 'Mountains of Christmas', cursive;
+h1,h5,h3{
+    font-family: 'Great Vibes', cursive;
 }
 
 .swiper-slide {
@@ -47,4 +47,24 @@ h1{
 .image img{
 object-fit: cover;
 width: 100%;
+}
+/*reduction de la taille et la hauteur des images de la section comment ça marche */
+.imgcardtitle {
+ object-fit: cover;
+width: 80%;
+margin: auto;
+/*width: 350px;
+margin-left: 95px;
+margin-top: 30px;*/
+}
+.background {
+    background: url("assets/img/arriere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.backgroundCoffret {
+    
+    background: #303D5D;
+
 }
