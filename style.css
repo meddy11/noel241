@@ -56,6 +56,7 @@ h1,h5,h3{
     position: absolute;
     top: 0;
     width: 100%;
+    z-index: 99;
 }
 
 /* header */
@@ -98,6 +99,13 @@ header{
 
 /* --------------- Style des coffrets ------------ */
 
+.card-img-top{
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 90%;
+}
+
 /*reduction de la taille et la hauteur des images de la section comment ça marche */
 .imgcardtitle {
  object-fit: cover;
@@ -115,6 +123,9 @@ margin-top: 30px;*/
 a:hover{
     text-decoration: none;
 }
+/* Paragraphes en bleu par défaut */
+
+
 
 /* Responsive Mobile */
 @media (max-width:600px) {
