@@ -43,10 +43,10 @@ h1,h5,h3{
 
 /* navbar */
 .navbar{
-    position: fixed;
+    background-color: transparent !important;
+    position: absolute;
     top: 0;
     width: 100%;
-    background-color: transparent !important;
 }
 
 /* header */
