@@ -26,8 +26,9 @@ h1,h5,h3{
     width: 100%;
     
 }
-.imagecase{
-    width: 50px;
+.img-entree{
+    object-fit: cover;
+    width: 100%;
 }
 .swiper-slide {
     text-align: center;
