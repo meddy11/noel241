@@ -178,14 +178,8 @@ margin: auto;
 margin-left: 95px;
 margin-top: 30px;*/
 }
-.background {
-    background: url("assets/img/arriere.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+.lienzone,.lien{
+    text-decoration: underline;
 }
-.backgroundCoffret {
-    
-    background: #303D5D;
 
-}
+
