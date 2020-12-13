@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Permanent+Marker&display=swap');
 body{
     overflow-x: hidden;
 }
+
+.font-chritmas{
+    font-family: 'Permanent Marker', cursive;
+}
+
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -48,6 +53,19 @@ h1,h5,h3{
 object-fit: cover;
 width: 100%;
 }
+
+
+/* footer */
+
+.page-footer{
+    background-color: #303D5D;
+    color: #ffffff;
+}
+
+.page-footer .footer-copyright {
+    background-color: #112453;
+}
+
 /* --------------- Style des coffrets ------------ */
 [class^="swiper-button-"], .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet::before {
     transition: all 0.3s ease;
