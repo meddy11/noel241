@@ -82,6 +82,13 @@ width: 100%;
 
 /* --------------- Style des coffrets ------------ */
 
+.card-img-top{
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 90%;
+}
+
 /*reduction de la taille et la hauteur des images de la section comment ça marche */
 .imgcardtitle {
  object-fit: cover;
