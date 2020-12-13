@@ -24,9 +24,11 @@ h1,h5,h3{
 .banner-img{
     object-fit: cover;
     width: 100%;
-    transform: scaleX(-1);
+    
 }
-
+.imagecase{
+    width: 50px;
+}
 .swiper-slide {
     text-align: center;
     font-size: 18px;
