@@ -88,8 +88,29 @@ margin: auto;
 margin-left: 95px;
 margin-top: 30px;*/
 }
-.lienzone,.lien{
-    text-decoration: underline;
+.lienzone{
+    text-decoration: none;
+    overflow: none;
 }
 
+.titrebloc{
+    display: inline;
+    position: relative;
+    
+}
+.titrebloc .titre{
+    z-index: 1;
+    position: absolute;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 170px;
+    left: 29px;
+    text-align: center;
+    top: 30%;
+    color: white;
+    width: 45vw;
+    font-size: 4em;
+}
+a:hover{
+    text-decoration: none;
+}
 
