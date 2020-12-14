@@ -33,8 +33,7 @@
     </div>
 </nav>
 <!-- header -->
-
-<header class="position-relative">
+<header class="position-relative w-">
     <div class="image"> 
         <img src="assets/img/banner1.jpg" alt="">
     </div>
@@ -90,6 +89,7 @@
         </div>
     </div>
 </section>
+
 <section class="mt-5  position-relative ">
     <!--<img src="assets/img/arriere.jpg" class="entredumarche-img" alt="">-->
     <!-- <h1 class="text-center  ">Entrée du marché</h1> -->
@@ -194,7 +194,7 @@
 
 </section>
 
-<section class="mb-5">
+<section class="mb-5 coffret">
     <h1 class="text-center">Nos coffrets-cadeaux</h1>
     <div class="container">
         <section class="swiper-container ">
@@ -340,49 +340,50 @@
   
 </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            pagination: {
-              el: '.swiper-pagination',
-              clickable: true,
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            '@0.00': {
+                slidesPerView: 1,
+                spaceBetween: 10,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            '@0.75': {
+                slidesPerView: 2,
+                spaceBetween: 20,
             },
-            breakpoints: {
-                '@0.00': {
-                  slidesPerView: 1,
-                  spaceBetween: 10,
-                },
-                '@0.75': {
-                  slidesPerView: 2,
-                  spaceBetween: 20,
-                },
-                '@1.00': {
-                  slidesPerView: 3,
-                  spaceBetween: 40,
-                },
-                '@1.50': {
-                  slidesPerView: 3,
-                  spaceBetween: 50,
-                },
-              }
-        });
-    </script>
-    <script type="text/javascript" src="https://click123.ca/dist/js/snow.js"></script>
+            '@1.00': {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+            '@1.50': {
+                slidesPerView: 3,
+                spaceBetween: 50,
+            },
+            }
+    });
+</script>
+<script type="text/javascript" src="https://click123.ca/dist/js/snow.js"></script>
+
 </body>
 </html>
