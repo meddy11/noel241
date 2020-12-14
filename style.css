@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&family=Permanent+Marker&display=swap');
 body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
     overflow-x: hidden;
 }
 
@@ -48,6 +53,18 @@ h1,h5,h3{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+}
+
+.swiper-pagination{
+    position: static;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #112453;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #112453;
 }
 
 /* navbar */
@@ -118,6 +135,7 @@ margin-top: 30px;*/
 .lienzone{
     text-decoration: none;
     overflow: none;
+    margin-top: -100px;
 }
 
 a:hover{
@@ -131,25 +149,29 @@ a:hover{
 }
 
 .background2 {
-    background: url("assets/img/3.jpg");
-  
-    
+    background: url("assets/img/2.jpg");
 }
-/*donner des marges interieur haut et bas aux differentes zones*/
+
+.background3 {
+    background: url("assets/img/2.jpg");
+}
+
+/*donnez des marges interieur haut et bas aux differentes zones*/
 .margehaut{
     padding-top: 20px;
 }
 .margebas{
     padding-bottom: 20px;
 }
-.background3 {
-    background: url("assets/img/22.jpg");
-}
-
-
 
 /* Responsive Mobile */
 @media (max-width:600px) {
+    .card{
+        overflow-x: hidden;
+        box-sizing: border-box;
+        /* width: 100vw; */
+    }
+
     .image{
         height: 70vh;
     }
