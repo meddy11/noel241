@@ -124,7 +124,28 @@ a:hover{
     text-decoration: none;
 }
 /* Paragraphes en bleu par défaut */
-/*changer*/
+/*changer le background des zones*/
+
+.background1 {
+    background: url("assets/img/2.jpg");
+}
+
+.background2 {
+    background: url("assets/img/3.jpg");
+  
+    
+}
+/*donner des marges interieur haut et bas aux differentes zones*/
+.margehaut{
+    padding-top: 20px;
+}
+.margebas{
+    padding-bottom: 20px;
+}
+.background3 {
+    background: url("assets/img/22.jpg");
+}
+
 
 
 /* Responsive Mobile */
