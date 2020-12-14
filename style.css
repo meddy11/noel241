@@ -50,6 +50,18 @@ h1,h5,h3{
     align-items: center;
 }
 
+.swiper-pagination{
+    position: static;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #112453;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #112453;
+}
+
 /* navbar */
 .navbar{
     background-color: transparent !important;
