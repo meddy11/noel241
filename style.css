@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&family=Permanent+Marker&display=swap');
 body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
     overflow-x: hidden;
 }
 
@@ -118,6 +123,12 @@ a:hover{
 
 /* Responsive Mobile */
 @media (max-width:600px) {
+    .card{
+        overflow-x: hidden;
+        box-sizing: border-box;
+        /* width: 100vw; */
+    }
+
     .image{
         height: 70vh;
     }
